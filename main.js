@@ -158,8 +158,8 @@ function d6RollFunction(){
 function doubleD6RollFunction(){
     let result1 = getRandomNumber(6);
     let result2 = getRandomNumber(6);
-    doubleSixes.push(result1);
-    doubleSixes.push(result2);
+    let sum = result1 + result2
+    doubleSixes.push(sum);
     imageDoubleD61.src =`./images/d6/${result1}.png`;
     imageDoubleD62.src =`./images/d6/${result2}.png`;
     console.log(doubleSixes);

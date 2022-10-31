@@ -15,7 +15,7 @@ And feel free to use the comment boxes to organize your sections. (Or don't.)
 * event listeners
 * string building/interpolation
 * array management and iteration
-* maths
+* maths[](README.md)
 
 ### Setting Up
 

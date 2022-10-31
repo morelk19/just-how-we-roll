@@ -102,7 +102,7 @@ const getRandomNumber = function(max) {
     d20RollFunction();
     meanD20.innerText = getMean(twenties);
     medianD20.innerText = median(twenties);
-    modeD12.innerText = getMode(twenties);
+    modeD20.innerText = getMode(twenties);
  });
 
  resetButton.addEventListener('click', reset);
